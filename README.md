@@ -6,7 +6,7 @@
 
 - LeetCode link https://leetcode.com/
 
-- Join the Discord Server to ask questions & compare solutions https://discord.gg/tkbhPXyX
+- Join the Discord Server to ask questions & compare solutions https://discord.gg/g5FRDj8VDf
 
 - If you want to open the .dia files you'll need to intall Dia Diagram Editor https://wiki.gnome.org/Apps/Dia/Download
 

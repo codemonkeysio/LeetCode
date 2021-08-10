@@ -19,9 +19,9 @@
 - Here's a more formal description: if there are <span style="color:#ffcc00">_k_</span> elements after removing the duplicates, then the first <span style="color:#ffcc00">_k_</span> elements of <span style="color:#ffcc00">_nums_</span> should hold the final result & it doesn't matter what is left after the first <span style="color:#ffcc00">_k_</span> elements
 - Some examples should make this clearer:
 
-  - Ex 1) Input: <span style="color:#ffcc00">_nums = [1, 1, 1, 2, 2]_</span>, Output: <span style="color:#ffcc00">_2, nums = [1, 2, \_, \_, \_ ]_
+  - Ex 1) Input: <span style="color:#ffcc00">_nums = [1, 1, 1, 2, 2]_</span>, Output: <span style="color:#ffcc00">_2, nums = [1, 2, \_, \_, \_ ]_</span>
 
-  * Explanation:
+  - Explanation:
 
     - Our function should return <span style="color:#ffcc00">_k = 2_</span> since we have two elements left after removing (or moving) the duplicates, & <span style="color:#ffcc00">_nums_</span> should have the only elements (if we're removing duplicates), or the first two elements (if we're moving duplicates) as <span style="color:#ffcc00">_1 & 2_</span> respectively
     - Notice how the output maintains the relative order for <span style="color:#ffcc00">_nums_</span> by keeping the elements we care about in <span style="color:#ffcc00">_non-decreasing_</span> order
@@ -29,7 +29,7 @@
 
   - Ex 2) Input: <span style="color:#ffcc00">_nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]_</span>, Output: <span style="color:#ffcc00">_5, nums = [0, 1, 2, 3, 4, \_, \_, \_, \_, \_]_</span>
 
-  * Explanation:
+  - Explanation:
 
     - Our function should return <span style="color:#ffcc00">_k = 5_</span> since we have five elements left after removing (or moving) the duplicates, & <span style="color:#ffcc00">_nums_</span> should have the only elements (if we're removing duplicates), or the first five elements (if we're moving duplicates) as <span style="color:#ffcc00">_0, 1, 2, 3, & 4_</span> respectively
     - Notice again how the output maintains the relative order for <span style="color:#ffcc00">_nums_</span> by keeping the elements we care about in <span style="color:#ffcc00">_non-decreasing_</span> order

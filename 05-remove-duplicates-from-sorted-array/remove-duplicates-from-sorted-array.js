@@ -1,11 +1,3 @@
-/* 
-
-Remove Duplicates from Sorted Array
-https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-
-*/
-
-// Implementation
 var removeDuplicates = function (nums) {
   const numsLength = nums.length;
 
@@ -25,4 +17,4 @@ var removeDuplicates = function (nums) {
 };
 
 nums = [1, 1, 1, 2, 2];
-console.log("k =", removeDuplicates(nums), "nums =", nums);
+console.log('k =', removeDuplicates(nums), 'nums =', nums);

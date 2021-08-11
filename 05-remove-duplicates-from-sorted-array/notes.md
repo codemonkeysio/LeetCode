@@ -2,7 +2,7 @@
 
 ## Links
 
-<p>These notes can be found here <a href="http://localhost:8080/posts/2021/07/03/remove-duplicates-from-sorted-array/">Code Monkeys Blog Post</a> 🐒</p>
+<p>These notes can be found here <a href="https://www.codemonkeys.tech/posts/2021/07/03/remove-duplicates-from-sorted-array/">Code Monkeys Blog Post</a> 🐒</p>
 <p><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array Problem</a> 💡</p>
 <p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 

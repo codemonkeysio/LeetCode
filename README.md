@@ -12,6 +12,8 @@
 
 - 📊 If you want to open the .dia files you'll need to install the <a href="https://wiki.gnome.org/Apps/Dia/Download">Dia Diagram Editor</a>
 
+- 🧜‍♀️ To view the flow charts you'll need to install <a href="https://github.com/mermaid-js/mermaid">mermaid</a> or you can copy the mermaid code and paste in the <a href="https://mermaid-js.github.io/mermaid-live-editor/edit#eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdXG4iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0">Mermaid Live Editor</a>.
+
 - 🖌️ The drawing in the videos is being done with <a href="https://github.com/bk138/gromit-mpx">Gromit-MPX</a>
 
   - Install it on Arch Linux using this command: <code>yay -S gromit-mpx</code>

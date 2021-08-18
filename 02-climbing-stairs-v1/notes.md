@@ -14,11 +14,11 @@ Each time you can either climb <span class="post-term-one">1</span> or <span cla
 
 ## Examples
 
-Ex 1) Input: <span class="post-term-one">n</span> = 2 $\implies$ Output: <span class="post-term-one">2</span>
+Ex 1) Input: <span class="post-term-one">n = 2</span> $\implies$ Output: <span class="post-term-one">2</span>
 
 Explanation: There are <span class="post-term-one">two</span> ways to climb to the top.<br>1. 1 step + 1 step<br>2. 2 steps
 
-Ex 1) Input: <span class="post-term-one">n</span> = 3 $\implies$ Output: <span class="post-term-one">3</span>
+Ex 2) Input: <span class="post-term-one">n = 3</span> $\implies$ Output: <span class="post-term-one">3</span>
 
 Explanation: There are <span class="post-term-one">three</span> ways to climb to the top.<br>1. 1 step + 1 step + 1 step<br>2. 1 step + 2 steps<br>3. 2 steps + 1 step
 
@@ -30,7 +30,7 @@ Explanation: There are <span class="post-term-one">three</span> ways to climb to
 
 - Let's start by diagramming the different ways we can climb the steps to see if we can find a pattern.
 
-  - When <span class="post-term-one">n</span> = 3 we have:
+  - When <span class="post-term-one">n = 3</span> we have:
 
 ```mermaid
 graph TD
@@ -46,11 +46,11 @@ graph TD
 
 - To see the diagram you'll need to install <a href="https://github.com/mermaid-js/mermaid">mermaid</a> or you can copy the mermaid code and paste in the <a href="https://mermaid-js.github.io/mermaid-live-editor/edit#eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdXG4iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0">Mermaid Live Editor</a>.
 
-- From the diagram we can see there are 3 distinct ways to climb to the top when <span class="post-term-one">n</span> = 3 since we can ignore the scenarios where we take extra steps.
+- From the diagram we can see there are <span class="post-term-one">3</span> distinct ways to climb to the top when <span class="post-term-one">n = 3</span> since we can ignore the scenarios where we take extra steps.
 
 - To help you see a pattern try drawing out more diagrams for larger values of <span class="post-term-one">n</span> or creating a generalized diagram for any value of <span class="post-term-one">n</span>.
 
-- The diagram is an example of a <span class="post-term-one">recursion tree</span>.
+- The diagram above is an example of a <span class="post-term-one">recursion tree</span>.
 
 - So, one way to solve this problem is to come up with a <span class="post-term-one">recursive formula</span> that represents how many distinct ways we can climb the stairs.
 
@@ -115,6 +115,20 @@ console.log(climbStairs(n));
 </code-block>
 </code-group>
 
+## Downsides
+
+- Our solution will work, but it's not efficient.
+
+- We'll actually get a time limit exceeded error on LeetCode if we submit this.
+
+- This is because the <span class="post-term-one">time complexity</span> of our solution is <span class="post-term-one">O(2<sup>n</sup>)</span>.
+
+- We can look at our <span class="post-term-one">recursion tree</span> above and count the number of nodes to determine the <span class="post-term-one">time complexity</span>.
+
+- Now, we won't count exactly <span class="post-term-one">2<sup>n</sup></span> nodes since our <span class="post-term-one">recursive formula</span> isn't exactly <span class="post-term-one">2<sup>n</sup></span>, but when dealing with <span class="post-term-one">Big-Oh</span> we only care about the behavior as <span class="post-term-one">n</span> becomes very large.
+
+- We'll be improving this in the next post by drawing out <span class="post-term-one">recursion trees</span> for larger values of <span class="post-term-one">n</span> which will allow us to see an interesting pattern.
+
 <style>
   .post-term-one {
     color: #ebeb33;
@@ -129,17 +143,3 @@ console.log(climbStairs(n));
     font-style: italic;
   }
 </style>
-
-## Downsides
-
-- Our solution will work, but it's not efficient.
-
-- We'll actually get a time limit exceeded error on LeetCode if we submit this.
-
-- This is because the <span class="post-term-one">time complexity</span> of our solution is <span class="post-term-one">O(2<sup>n</sup>)</span>.
-
-- We can look at our <span class="post-term-one">recursion tree</span> above and count the number of nodes to determine the <span class="post-term-one">time complexity</span>.
-
-- Now, we won't count exactly <span class="post-term-one">2<sup>n</sup></span> nodes since our <span class="post-term-one">recursive formula</span> isn't exactly <span class="post-term-one">2<sup>n</sup></span>, but when dealing with <span class="post-term-one">Big-Oh</span> we only care about the behavior as <span class="post-term-one">n</span> becomes very large.
-
-- We'll be improving this in the next post by drawing out <span class="post-term-one">recursion trees</span> for larger values of <span class="post-term-one">n</span> which will allow us to see an interesting pattern.

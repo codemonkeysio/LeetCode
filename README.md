@@ -8,8 +8,6 @@
 
 - 🎥 Check out the <a href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg">Code Monkeys YouTube Channel!</a>
 
-- 🤖 Join the <a href="https://discord.gg/g5FRDj8VDf">Discord Server</a> to ask questions and compare solutions!
-
 - 📊 If you want to open the .dia files you'll need to install the <a href="https://wiki.gnome.org/Apps/Dia/Download">Dia Diagram Editor</a>
 
 - 🧜‍♀️ To view the flow charts you'll need to install <a href="https://github.com/mermaid-js/mermaid">mermaid</a> or you can copy the mermaid code and paste in the <a href="https://mermaid-js.github.io/mermaid-live-editor/edit#eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdXG4iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0">Mermaid Live Editor</a>.

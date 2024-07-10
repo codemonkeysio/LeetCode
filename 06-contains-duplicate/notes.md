@@ -4,7 +4,6 @@
 
 <p>These notes can be found here <a href="https://www.codemonkeys.tech/posts/2021/08/06/contains-duplicate/#thought-process">Code Monkeys Blog Post</a> 🐒</p>
 <p><a href="https://leetcode.com/problems/contains-duplicate/">Contains Duplicate Problem</a> 💡</p>
-<p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 
 ## Problem Description
 

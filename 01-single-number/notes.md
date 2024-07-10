@@ -4,7 +4,6 @@
 
 <p>These notes can be found here <a href="https://www.codemonkeys.tech/posts/2021/06/29/single-number/">Code Monkeys Blog Post</a> 🐒</p>
 <p><a href="https://leetcode.com/problems/single-number/">Single Number Problem</a> 💡</p>
-<p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 
 ## Problem Description
 

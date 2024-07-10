@@ -4,7 +4,6 @@
 
 <p>These notes can be found here <a href="https://www.codemonkeys.tech/posts/2021/08/11/reverse-string/">Code Monkeys Blog Post</a> 🐒</p>
 <p><a href="https://leetcode.com/problems/reverse-string/">Reverse String Problem</a> 💡</p>
-<p><a href="https://discord.gg/mh9rQmwJ8H">Ask Questions & Share Solutions in Discord</a> 🤖</p>
 
 ## Problem Description
 

@@ -6,7 +6,7 @@
 
 - 🐒 Find all of the solutions and videos on the <a href="https://www.codemonkeys.tech/">Code Monkeys Blog!</a>
 
-- 🎥 Check out the <a href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg">Code Monkeys YouTube Channel!</a>
+- 🎥 Check out the <a href="https://www.youtube.com/@codemonkeystech">Code Monkeys YouTube Channel!</a>
 
 - 📊 If you want to open the .dia files you'll need to install the <a href="https://wiki.gnome.org/Apps/Dia/Download">Dia Diagram Editor</a>
 
